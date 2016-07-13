@@ -88,23 +88,23 @@ UPGRADING V1.0/V1.0.1 to V1.1.0
 Please remove all the "btn-raised" classes from all the buttons. Now all the buttons have the "Raised" style on the default state. If you want to use the buttons without that style, like the old "Default" state from the V1.0 please add the class "btn-simple" to those buttons.
 
 2. Features Area:
-Please change the all structure:
+Please change this structure:
 
-<div class="feature feature-primary">
-    <i class="material-icons">chat</i>
-    <h4 class="title">First Feature</h4>
-    <p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-</div>
+    <div class="feature feature-primary">
+        <i class="material-icons">chat</i>
+        <h4 class="title">First Feature</h4>
+        <p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+    </div>
 
 with the new one:
 
-<div class="info">
-    <div class="icon icon-primary">
+    <div class="info">
+        <div class="icon icon-primary">
         <i class="material-icons">chat</i>
     </div>
-    <h4 class="info-title">First Feature</h4>
-    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-</div>
+        <h4 class="info-title">First Feature</h4>
+        <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+    </div>
 
 
 
