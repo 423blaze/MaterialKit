@@ -90,14 +90,16 @@ Please remove all the "btn-raised" classes from all the buttons. Now all the but
 2. Features Area:
 Please change this structure:
 
+```
     <div class="feature feature-primary">
         <i class="material-icons">chat</i>
         <h4 class="title">First Feature</h4>
         <p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
     </div>
-
+```
 with the new one:
 
+```
     <div class="info">
         <div class="icon icon-primary">
         <i class="material-icons">chat</i>
@@ -105,7 +107,7 @@ with the new one:
         <h4 class="info-title">First Feature</h4>
         <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
     </div>
-
+```
 
 
 ## Useful Links
