@@ -102,8 +102,8 @@ with the new one:
 ```
     <div class="info">
         <div class="icon icon-primary">
-        <i class="material-icons">chat</i>
-    </div>
+            <i class="material-icons">chat</i>
+        </div>
         <h4 class="info-title">First Feature</h4>
         <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
     </div>
