@@ -90,7 +90,7 @@ Please remove all the "btn-raised" classes from all the buttons. Now all the but
 2. Features Area:
 Please change this structure:
 
-```
+```html
     <div class="feature feature-primary">
         <i class="material-icons">chat</i>
         <h4 class="title">First Feature</h4>
@@ -99,7 +99,7 @@ Please change this structure:
 ```
 with the new one:
 
-```
+```html
     <div class="info">
         <div class="icon icon-primary">
             <i class="material-icons">chat</i>
