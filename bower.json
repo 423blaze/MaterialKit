@@ -15,7 +15,7 @@
     "google",
     "twitter"
   ],
-  "license": "???",
+  "license": "Creative TIM License"",
   "ignore": [
     "**/.*",
     "node_modules",
