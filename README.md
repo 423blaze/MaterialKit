@@ -109,6 +109,10 @@ with the new one:
         <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
     </div>
 ```
+### License
+
+- Copyright 2017 Creative Tim (http://www.creative-tim.com)
+- Licensed under MIT (https://github.com/timcreative/material-kit/blob/master/LICENSE.md)
 
 
 ## Useful Links
