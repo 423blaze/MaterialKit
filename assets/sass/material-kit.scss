@@ -1,7 +1,7 @@
 /*!
     
  =========================================================
- * Material Kit - v1.1.0.0
+ * Material Kit - v1.1.1.0
  =========================================================
  
  * Product Page: http://www.creative-tim.com/product/material-kit
