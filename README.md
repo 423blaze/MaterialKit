@@ -1,6 +1,5 @@
 # [Material Kit - Free Bootstrap UI Kit](http://demos.creative-tim.com/material-kit/index.html)
 
-![alt text](http://s3.amazonaws.com/creativetim_bucket/products/38/original/opt_mk_thumbnail.jpg "Material Kit Free")
 
 Material Kit is a Free Bootstrap UI Kit with a fresh, new design inspired by Google's material design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components. Along with the restyling of the Bootstrap elements, you will find three fully-coded example pages, to help you design your next project.
 
