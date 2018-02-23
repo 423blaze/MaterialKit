@@ -1,6 +1,6 @@
 /*! =========================================================
  *
- * Material Kit PRO - v2.0.0
+ * Material Kit PRO - v2.0.2 (Bootstrap 4.0.0 Final Edition)
  *
  * =========================================================
  *
@@ -97,7 +97,7 @@ $(document).ready(function() {
     if (window_width >= 768) {
         big_image = $('.page-header[data-parallax="true"]');
         if (big_image.length != 0) {
-            $(window).on('scroll', materialKitDemo.checkScrollForParallax);
+            $(window).on('scroll', materialKit.checkScrollForParallax);
         }
 
     }
@@ -176,6 +176,91 @@ materialKit = {
         navbar_initialized: false,
         isWindow: document.documentMode || /Edge/.test(navigator.userAgent)
     },
+
+    checkScrollForParallax: function() {
+        oVal = ($(window).scrollTop() / 3);
+        big_image.css({
+            'transform': 'translate3d(0,' + oVal + 'px,0)',
+            '-webkit-transform': 'translate3d(0,' + oVal + 'px,0)',
+            '-ms-transform': 'translate3d(0,' + oVal + 'px,0)',
+            '-o-transform': 'translate3d(0,' + oVal + 'px,0)'
+        });
+    },
+
+    initFormExtendedDatetimepickers: function() {
+        $('.datetimepicker').datetimepicker({
+            icons: {
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-chevron-up",
+                down: "fa fa-chevron-down",
+                previous: 'fa fa-chevron-left',
+                next: 'fa fa-chevron-right',
+                today: 'fa fa-screenshot',
+                clear: 'fa fa-trash',
+                close: 'fa fa-remove'
+            }
+        });
+
+        $('.datepicker').datetimepicker({
+            format: 'MM/DD/YYYY',
+            icons: {
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-chevron-up",
+                down: "fa fa-chevron-down",
+                previous: 'fa fa-chevron-left',
+                next: 'fa fa-chevron-right',
+                today: 'fa fa-screenshot',
+                clear: 'fa fa-trash',
+                close: 'fa fa-remove'
+            }
+        });
+
+        $('.timepicker').datetimepicker({
+            //          format: 'H:mm',    // use this format if you want the 24hours timepicker
+            format: 'h:mm A', //use this format if you want the 12hours timpiecker with AM/PM toggle
+            icons: {
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-chevron-up",
+                down: "fa fa-chevron-down",
+                previous: 'fa fa-chevron-left',
+                next: 'fa fa-chevron-right',
+                today: 'fa fa-screenshot',
+                clear: 'fa fa-trash',
+                close: 'fa fa-remove'
+
+            }
+        });
+    },
+
+
+    initSliders: function() {
+        // Sliders for demo purpose
+        var slider = document.getElementById('sliderRegular');
+
+        noUiSlider.create(slider, {
+            start: 40,
+            connect: [true, false],
+            range: {
+                min: 0,
+                max: 100
+            }
+        });
+
+        var slider2 = document.getElementById('sliderDouble');
+
+        noUiSlider.create(slider2, {
+            start: [20, 60],
+            connect: true,
+            range: {
+                min: 0,
+                max: 100
+            }
+        });
+    },
+
 
     initColoredShadows: function() {
         if (materialKit.misc.colored_shadows == true) {
