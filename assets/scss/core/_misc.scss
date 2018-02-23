@@ -77,6 +77,20 @@ label{
     @include transitions($fast-transition-time, $transition-ease);
 }
 
+.signup-page{
+  .card-signup{
+    form{
+      .form-check{
+        padding-left: 20px;
+
+        .form-check-label{
+          padding-left: 35px;
+        }
+      }
+    }
+  }
+}
+
 // style for index.html (free version)
 
 .section-signup{
