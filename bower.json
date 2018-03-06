@@ -1,6 +1,6 @@
 {
   "name": "material-kit",
-  "homepage": "https://github.com/timcreative/material-kit",
+  "homepage": "https://github.com/creativetimofficial/material-kit",
   "authors": [
     "creative-tim"
   ],
@@ -15,7 +15,7 @@
     "google",
     "twitter"
   ],
-  "license": "Creative TIM License"",
+  "license": "Creative TIM License",
   "ignore": [
     "**/.*",
     "node_modules",
