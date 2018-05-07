@@ -30,7 +30,7 @@ Quick start options:
 Within the download you'll find the following directories and files:
 
 ```
-x_mk/
+material-kit/
 ├── CHANGELOG.md
 ├── LICENSE.md
 ├── README.md
