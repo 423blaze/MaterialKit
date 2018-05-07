@@ -1,61 +1,68 @@
-/*! =========================================================
- *
- * Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition)
- *
- * =========================================================
- *
- * Product Page: https://www.creative-tim.com/product/material-kit-pro
- * Available with purchase of license from https://www.creative-tim.com/product/material-kit-pro
- * Copyright 2018 Creative Tim (https://www.creative-tim.com)
- * License Creative Tim (https://www.creative-tim.com/license)
- *
- * ========================================================= */
+/*!
 
-@import "core/variables";
-@import "core/mixins";
-@import "core/core-bootstrap";
-@import "core/reboot";
+ =========================================================
+ * Material Kit - v2.0.3
+ =========================================================
 
-// Core Components
-@import "core/layout";
-@import "core/buttons";
-@import "core/misc";
-@import "core/checkboxes";
-@import "core/cards";
-@import "core/custom-forms";
-@import "core/switches";
-@import "core/radios";
-@import "core/carousel";
-@import "core/forms";
-@import "core/input-group";
-@import "core/list-group";
-@import "core/nav";
-@import "core/images";
-@import "core/navbar";
-@import "core/badges";
-@import "core/alerts";
-@import "core/pagination";
-@import "core/pills";
-@import "core/info-areas";
-@import "core/type";
-@import "core/tabs";
-@import "core/tooltip";
-@import "core/popover";
-@import "core/modal";
-@import "core/dropdown";
-@import "core/drawer";
-@import "core/progress";
-@import "core/togglebutton";
-@import "core/ripples";
-@import "core/headers";
-@import "core/footers";
+ * Product Page: https://www.creative-tim.com/product/material-kit
+ * Copyright 2018 Creative Tim (http://www.creative-tim.com)
 
-// Core Plugins
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
 
-@import "plugins/plugin-datetime-picker";
-@import "plugins/plugin-nouislider";
+ =========================================================
 
-// Sections and Example pages
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-@import "core/example-pages";
-@import "core/responsive";
+ */
+
+ @import "material-kit/variables";
+ @import "material-kit/mixins";
+ @import "material-kit/core-bootstrap";
+ @import "material-kit/reboot";
+
+ // Core Components
+ @import "material-kit/layout";
+ @import "material-kit/buttons";
+ @import "material-kit/misc";
+ @import "material-kit/checkboxes";
+ @import "material-kit/custom-forms";
+ @import "material-kit/switches";
+ @import "material-kit/radios";
+ @import "material-kit/carousel";
+ @import "material-kit/forms";
+ @import "material-kit/input-group";
+ @import "material-kit/list-group";
+ @import "material-kit/nav";
+ @import "material-kit/images";
+ @import "material-kit/navbar";
+ @import "material-kit/badges";
+ @import "material-kit/alerts";
+ @import "material-kit/pagination";
+ @import "material-kit/pills";
+ @import "material-kit/info-areas";
+ @import "material-kit/type";
+ @import "material-kit/tabs";
+ @import "material-kit/tooltip";
+ @import "material-kit/popover";
+ @import "material-kit/modal";
+ @import "material-kit/dropdown";
+ @import "material-kit/drawer";
+ @import "material-kit/progress";
+ @import "material-kit/togglebutton";
+ @import "material-kit/ripples";
+ @import "material-kit/headers";
+ @import "material-kit/footers";
+
+ // Cards
+ @import 'material-kit/cards';
+ @import 'material-kit/cards/card-carousel';
+ @import 'material-kit/cards/card-signup';
+ @import 'material-kit/cards/card-plain';
+
+ // Core Plugins
+ @import 'material-kit/plugins/plugin-datetime-picker';
+ @import 'material-kit/plugins/plugin-nouislider';
+
+ // Sections and Example pages
+ @import "material-kit/example-pages";
+ @import "material-kit/responsive";
