@@ -21,7 +21,6 @@ Quick start options:
 
 - [Download from Github](https://github.com/creativetimofficial/material-kit.git).
 - [Download from Creative Tim](http://www.creative-tim.com/product/material-kit).
-- Install with [Bower](https://bower.io/): ```bower install material-kit```.
 - Clone the repo: `git clone https://github.com/creativetimofficial/material-kit.git`.
 
 
