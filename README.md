@@ -67,60 +67,78 @@ material-kit/
 
 ### Version logs
 
-## [2.0.0] 2018-01-25
+## [2.0.3] 2018-05-07
+### BugFixing
+- Scss cleaned and fixed issue when compiling
+- Archive cleaned
+- Other small bug fixing
+
+## [2.0.2] 2018-02-13
+### Improvements, Bootstrap 4.0.0 Final Included
+- Reestablish the routes/folder for images
+
+## [2.0.1] 2018-01-31
+### Bug fixing, Improvements
+- Added two plugins in Documentation
+- Included gulp task that opens the project in browser
+- Reestablish the routes for some Documentation Components
+- responsive issue fixed for carousel
+
+## [2.0.0] 2018-01-12
 ### Bootstrap 4 update
 - Core base code on Bootstrap 4
 - Documentation code base written from scratch
 - Speed optimizations
 - Class changes : .card-block to .card-body
-- .navbar-toggleable- to .navbar-expand-
-
-- .hidden--down to .d-none .d--block
-- .hidden--up to .d--none
+- .navbar-toggleable-* to .navbar-expand-*
+- .hidden-*-down to .d-none .d-*-block
+- .hidden-*-up to .d-*-none
 - .checkbox to .form-check
 - .radio to .form-check
-- more class changes here:https://medium.com/@lukaszh...
-
+- more class changes here:https://medium.com/@lukaszholeczek/how-to-upgrade-bootstrap-4-alpha-6-to-bootstrap-4-beta-d43b4210f2a3
 - Bug fixes for responsive devices
 - Small changes for components
-## [1.1.0], 11.07.2016 - Minor Updates and Bug Fixes
-- Added colored shadows under the Buttons, Pagination & Nav Pills
-- Removed ".btn-raised" class and made the raised button default (too many persons are using the .btn-raised as the default state so let's keep it simple and with less classes). Find more details in on the Upgrading Info below.
-- Added ".btn-simple" class instead of the default link like buttons. Find more details in on the Upgrading Info below.
-- Added a new color for buttons: White, you can use it with ".btn-white"
-- Change the structure of \_buttons.scss and made it more easy to be customized
-- Added subtile animation on Tooltips
-- Removed Glyphicons from bootstrap.min.css
-- Update Bootstrap to v3.3.6
-- Change structure of the "Feature with Icon and Title" to "Info Area with Icon and Title" to keep classes consistency with the PRO version. Find more details in on the Upgrading Info below.
-- Update Font Awesome to the latest Version
-- Added animations and transitions vendor prefixes for old browsers on Checkboxes and Radios
-### UPGRADING V1.0/V1.0.1 to V1.1.0
-1. Buttons:
-Please remove all the "btn-raised" classes from all the buttons. Now all the buttons have the "Raised" style on the default state. If you want to use the buttons without that style, like the old "Default" state from the V1.0 please add the class "btn-simple" to those buttons.
-2. Features Area:
-Please change the all structure:
-<div class="feature feature-primary">
-<i class="material-icons">chat</i>
-<h4 class="title">First Feature</h4>
-<p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-</div>
-with the new one:
-<div class="info">
-<div class="icon icon-primary">
-<i class="material-icons">chat</i>
-</div>
-<h4 class="info-title">First Feature</h4>
-<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-</div>
-## [1.0.1] 21.06.2016 - Bugfixing
-- fixed sidebar in documentation
-- fixed checkboxes and radios on Firefox
-- fixed Dropdown in Navbars for mobile
-- fixed broken link in documentation
-IMPORTANT! Before upgrading from V1.0/V1.0.1 to V1.1.0, please read all the change long and then follow the instructions for the upgrade.
-## [1.0.0] 15.03.2016
-### Original Release
+
+## [1.2.1] 2017-11-09
+### BugFixing
+- fixed parallax page scroll
+- fixed cards from `ecommerce.html` page
+
+## [1.2.0] 2017-09-13
+### BugFixing
+- jQuery library update to the latest version
+- removed atv-img-animation.js library ( multiple problems with the browsers )
+- fixed rotating card system for IE, changed rotating cards with raised image with regular cards with background image or plain cards
+- bootstrap-selectpicker.js updated to the latest version
+
+## [1.1.1] 2017-05-22
+### BugFixing
+- fixed problem with Morphing Cards(rotating manual and auto) and Perspective Cards when images were loading later than the javascript
+
+## [1.1.0] 2017-04-14
+### BugFixing, Plugins Updates, New Cards (HTML Version)
+- v1.1.0 14 Apr, 2017 -
+- Bootstrap v3.3.7
+- Bootstrap DateTimePicker v4.17.45
+- Replace Bootstrap SelectPicker v1.11.2
+- Replace Tags with Bootstrap TagsInput v0.8.0
+- jQuery.Flexisel v2.1.0
+- NoUiSlider v9.0.0
+- jQuery v3.1.1
+- moment.js v2.14.1
+- Added new cards
+- Added 3D animation effect for images on cards(atvImg library)
+- Added DynamicShadows
+- Added New rotating cards
+- Added Ecommerce Page
+- Bug fixing
+- Documentation Updates
+- Added simple input example
+
+IMPORTANT! If you migrate from V1.0.0 to V1.1.0 please make sure your replace the '.content' class inside each card with '.card-content', we've made this adjustment for a better control of the content that is inside a card. Sorry for the inconvenience.
+
+## [1.0.0] 2016-06-15
+### Initial Release
 
 
 ### License
