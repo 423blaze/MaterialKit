@@ -1,37 +1,10 @@
 {
   "name": "material-kit",
+  "description": "Bootstrap 4 Material Design",
   "version": "2.0.2",
-  "description": "Material Kit a Premium Bootstrap 4 Material Design. Coded by Creative Tim",
-  "main": "index.html",
-  "directories": {
-    "example": "root"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-kit.git"
-  },
-  "keywords": [
-    "creative tim",
-    "html kit",
-    "html css template",
-    "web template",
-    "bootstrap",
-    "css3 template",
-    "frontend",
-    "responsive bootstrap template",
-    "bootstrap 4 ui kit",
-    "premium bootstrap kit",
-    "responsive ui kit"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "<<github issue bugs>>"
-  },
   "homepage": "http://creative-tim.com/product/material-kit",
+  "author": "Creative Tim",
+  "license": "Creative Tim License <www.creative-tim.com/license>",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",

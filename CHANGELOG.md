@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.3] 2018-05-07
+### BugFixing
+- Scss cleaned and fixed issue when compiling
+- Archive cleaned
+- Other small bug fixing
+
 ## [2.0.2] 2018-02-13
 ### Improvements, Bootstrap 4.0.0 Final Included
 - Reestablish the routes/folder for images
