@@ -35,33 +35,30 @@ x_mk/
 ├── LICENSE.md
 ├── README.md
 ├── assets
-│   ├── assets-for-demo
+│   ├── demo
 │   ├── css
 │   │   ├── material-kit.css
 │   │   ├── material-kit.css.map
 │   │   └── material-kit.min.css
 │   ├── img
 │   ├── js
-│   │   ├── bootstrap-material-design.js
-│   │   ├── bootstrap-material-design.min.js
 │   │   ├── core
+│   │   │   ├── bootstrap-material-design.min.js
 │   │   │   ├── jquery.min.js
 │   │   │   └── popper.min.js
 │   │   ├── material-kit.js
+│   │   ├── material-kit.js.map
 │   │   ├── material-kit.min.js
 │   │   └── plugins
 │   │       ├── bootstrap-datetimepicker.min.js
-│   │       ├── jasny-bootstrap.min.js
 │   │       ├── moment.min.js
 │   │       └── nouislider.min.js
 │   └── scss
-│       ├── bootstrap
-│       ├── core
-│       ├── material-kit.scss
-│       └── plugins
+│       ├── material-kit
+│       └── material-kit.scss
 ├── bower.json
 ├── docs
-│   └── documentation-free.html
+│   └── documentation.html
 ├── examples
 │   ├── landing-page.html
 │   ├── profile-page.html
