@@ -12,12 +12,12 @@ Material Kit makes use of light, surface and movement. It uses a deliberate colo
 
 This new design has elements that have been the result of research regarding ink and paper and the way objects and materials interact in real life. The result is a beautiful and consistent set of elements that can get you started with your next project. Material Kit is a great tool if you are looking to create a web presence for your Android application and need to be consistent, leaving the impression of visually similar elements. It is also a great resource in its own right, looking gorgeous and helping you build your web pages.
 
-Material Kit is based on the Github Repo from Fezvrasta (http://fezvrasta.github.io/bootstrap-material-design/) who did an amazing job creating the backbone for the material effects, animations and transitions. Big thanks to his team for their forward thinking efforts.
+Material Kit is based on the Github Repo from Fezvrasta who did an amazing job creating the backbone for the material effects, animations and transitions. Big thanks to his team for their forward thinking efforts.
 
 
 ## Table of Contents
 
-* [Versions](#versions)
+* [Versions](#versions) 
 * [Demo](#demo)
 * [Quick Start](#quick-start)
 * [Documentation](#documentation)
@@ -57,7 +57,7 @@ Material Kit is based on the Github Repo from Fezvrasta (http://fezvrasta.github
 ## Quick start
 
 - [Download from Github](https://github.com/creativetimofficial/material-kit/archive/master.zip).
-- [Download from Creative Tim](http://www.creative-tim.com/product/material-kit).
+- [Download from Creative Tim](https://www.creative-tim.com/product/material-kit).
 - Install with [Bower](https://bower.io/): ```bower install material-kit```.
 - Clone the repo: `git clone https://github.com/creativetimofficial/material-kit.git`.
 
@@ -101,7 +101,7 @@ material-kit/
 │       └── plugins
 ├── bower.json
 ├── docs
-│   └── documentation-free.html
+│   └── documentation.html
 ├── examples
 │   ├── landing-page.html
 │   ├── profile-page.html
@@ -166,3 +166,4 @@ Dribbble: <https://dribbble.com/creativetim>
 Google+: <https://plus.google.com/+CreativetimPage>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial>
+
