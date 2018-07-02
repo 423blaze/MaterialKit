@@ -1,8 +1,18 @@
 # Change Log
 
+## [2.0.4] 2018-07-02
+### BugFixing
+- Solved responsive issues
+- Updated plugins
+- Speed optimizations
+- Documentation errors fixed
+- Gulp compiling of the SASS files
+- Change versions on CSS and JS files
+- Small changes for components
+
 ## [2.0.3] 2018-05-07
 ### BugFixing
-- Scss cleaned and fixed issue when compiling
+- Scss cleaned and fixed issues when compiling
 - Archive cleaned
 - Other small bug fixing
 

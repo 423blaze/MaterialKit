@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Material Kit - v2.0.3
+ * Material Kit - v2.0.4
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/material-kit
@@ -49,6 +49,8 @@ $(document).ready(function() {
     }
 
   }
+
+
 });
 
 $(document).on('click', '.navbar-toggler', function() {
