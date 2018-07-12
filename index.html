@@ -57,9 +57,10 @@
 					</a>
 				</li>
 				<li>
-					<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
-						<i class="material-icons">unarchive</i> Upgrade to PRO
-					</a>
+				<li>
+          <a href="javascript:void(0)" onclick="scrollToDownload()">
+          	<i class="material-icons">cloud_download</i> Download
+          </a>
 				</li>
 				<li>
 					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-white btn-simple btn-just-icon">
@@ -1398,6 +1399,16 @@
 				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
 			}
 
+
+
 		});
+
+    function scrollToDownload() {
+    if ($('.section-download').length != 0) {
+        $("html, body").animate({
+            scrollTop: $('.section-download').offset().top
+        }, 1000);
+    }
+  }
 	</script>
 </html>

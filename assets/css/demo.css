@@ -391,7 +391,31 @@
     background-size: cover;
     background-position: center center;
 }
+
+.components-page .wrapper > .header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 .components-page .title,
 .tutorial-page .title{
     color: #FFFFFF;
+}
+
+.components-page .footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.components-page .footer .container:after,
+.components-page .footer .container:before {
+  display: none;
+}
+
+@media screen and (max-width:991px) {
+  .components-page .footer .container {
+    display: block;
+    text-align: center;
+  }
 }
