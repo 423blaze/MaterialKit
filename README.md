@@ -33,12 +33,12 @@ Material Kit is based on the Github Repo from Fezvrasta who did an amazing job c
 
 ## Versions
 
-[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/material-kit)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/material-kit)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/material-kit-react)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-material-kit)
 
 
-| HTML | React  |
-| --- | ---  |
-| [![Material Kit  HTML](https://s3.amazonaws.com/creativetim_bucket/products/38/thumb/opt_mk_thumbnail.jpg)](https://www.creative-tim.com/product/material-kit)  | [![Material Kit  React](https://s3.amazonaws.com/creativetim_bucket/products/83/thumb/opt_mk_react_thumbnail.jpg)](https://www.creative-tim.com/product/material-kit-react)   
+| HTML | React | Vue  |
+| --- | --- | ---  |
+| [![Material Kit  HTML](https://s3.amazonaws.com/creativetim_bucket/products/38/thumb/opt_mk_thumbnail.jpg)](https://www.creative-tim.com/product/material-kit)  | [![Material Kit  React](https://s3.amazonaws.com/creativetim_bucket/products/83/thumb/opt_mk_react_thumbnail.jpg)](https://www.creative-tim.com/product/material-kit-react)  | [![Vue Material Kit](https://s3.amazonaws.com/creativetim_bucket/products/97/thumb/opt_mk_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-kit)  
 
 
 
