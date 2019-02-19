@@ -121,7 +121,10 @@
         border-bottom: none;
 
       }
-
+      .features-3 .info{
+        margin: 0;
+        padding: 0;
+      }
       .section-content
       img{
         height: auto !important;
@@ -153,14 +156,24 @@
         top: 100px;
         position: absolute;
       }
-
-      .section-download .logos img{
+      .section-download .logos{
+        margin-bottom: 100px
+      }
+      .section-download .logos a{
         width: 105px;
-        margin: 0 10px 100px 10px;
+        margin: 0 10px;
         box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
-        padding: 20px 15px;
+        padding: 25px 5px;
         background: #fff;
         border-radius: 6px;
+        display: inline-block;
+      }
+      .section-download .logos img{
+        width: 100%;
+        max-width: 45px;
+      }
+      .section-download .logos .logo-title{
+        margin-top: 15px;
       }
 
       .btn.btn-twitter {
@@ -434,14 +447,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="brand">
-                        <h1> Material Kit.</h1>
-                        <h4> Free and Open Source UI Kit for Bootstrap 4, React, React Native, Vue.js </h4>
+                        <h1>Material Kit.</h1>
+                        <h4 class="mb-4"> Free and Open Source UI Kit for Bootstrap 4, React, React Native, Vue.js </h4>
 
                         <a class="btn btn-primary btn-round" href="https://github.com/creativetimofficial/material-kit" target="_blank">
                             <i class="fa fa-github"></i> Star on Github
                           </a>
 
-                          <a class="btn btn-white btn-round" href="https://demos.creative-tim.com/material-kit/index.html?ref=mk-all-technologies-presentation" target="_blank">
+                          <a class="btn btn-white btn-round" href="https://demos.creative-tim.com/material-kit/index.html?ref=mk-github-presentation" target="_blank">
                               Live Preview
                             </a>
 
@@ -574,10 +587,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="row">
                     <div class="col-lg-5">
                         <h2 class="title">Basic Components
-                            <h6 class="description">The core elements of your website</h6>
+                            <h6 class="description mt-1">The core elements of your website</h6>
                             <h5 class="description">We re-styled every element to make it resemble Material Design and also fit with each other. Besides the numerous basic elements, we have also created additional classes. All these items will help you take your project to the next level.
                             </h5>
-                            <a href="/material-kit/index.html?ref=mk-all-technologies-presentation" class="btn btn-round btn-primary mt-4" target="_blank">View all components</a>
+                            <a href="/material-kit/index.html?ref=mk-github-presentation" class="btn btn-round btn-primary mt-4" target="_blank">View all components</a>
                         </h2>
                     </div>
                     <div class="col-lg-6 ml-auto">
@@ -614,56 +627,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
 
-                    <div class="features-3">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-6">
-                              <!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
-                              <h2 class="title">Your life will be much easier</h2>
-                              <div class="info info-horizontal">
-                                  <div class="icon icon-primary">
-                                      <i class="material-icons">extension</i>
-                                  </div>
-                                  <div class="description">
-                                      <h4 class="info-title">Bootstrap 4 & Flexbox</h4>
-                                      <p>It is built over Bootstrap 4, it's fully responsive and has all the benefits of the flexbox for the layout, grid system and components. This is a huge advantage when you work with columns. </p>
-                                  </div>
-                              </div>
-                              <div class="info info-horizontal">
-                                  <div class="icon icon-primary">
-                                      <i class="material-icons">child_friendly</i>
-                                  </div>
-                                  <div class="description">
-                                      <h4 class="info-title">Easy to Use</h4>
-                                      <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                  </div>
-                              </div>
-                              <div class="info info-horizontal">
-                                  <div class="icon icon-primary">
-                                      <i class="material-icons">watch_later</i>
-                                  </div>
-                                  <div class="description">
-                                      <h4 class="info-title">Fast Prototyping</h4>
-                                      <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                  </div>
-                              </div>
-                          </div>
-                            <div class="col-lg-6">
-                                <div class="image-container-responsive">
-                                    <img src="assets/img/ipad.png">
-                                    <img class="phone" src="assets/img/iphonex.png">
-                                </div>
-                            </div>
-                        </div>
+        <div class="features-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                  <!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
+                  <h2 class="title">Your life will be much easier</h2>
+                  <div class="info info-horizontal">
+                      <div class="icon icon-primary">
+                          <i class="material-icons">extension</i>
                       </div>
+                      <div class="description">
+                          <h4 class="info-title">Bootstrap 4 & Flexbox</h4>
+                          <p>It is built over Bootstrap 4, it's fully responsive and has all the benefits of the flexbox for the layout, grid system and components. This is a huge advantage when you work with columns. </p>
+                      </div>
+                  </div>
+                  <div class="info info-horizontal">
+                      <div class="icon icon-primary">
+                          <i class="material-icons">child_friendly</i>
+                      </div>
+                      <div class="description">
+                          <h4 class="info-title">Easy to Use</h4>
+                          <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                      </div>
+                  </div>
+                  <div class="info info-horizontal">
+                      <div class="icon icon-primary">
+                          <i class="material-icons">watch_later</i>
+                      </div>
+                      <div class="description">
+                          <h4 class="info-title">Fast Prototyping</h4>
+                          <p>Using the Material Kit will save you large amount of time. You don't have to worry about creating new elements of design, you just take care of the development.</p>
+                      </div>
+                  </div>
+              </div>
+                <div class="col-lg-6">
+                    <div class="image-container-responsive">
+                        <img src="assets/img/ipad.png">
+                        <img class="phone" src="assets/img/iphonex.png">
                     </div>
+                </div>
+            </div>
+          </div>
+        </div>
 
         <div class="section">
           <div class="container text-center">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
-                    <h2>Completed with examples</h2>
-                    <h4>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful kit.</h4>
+                    <h2 class="title">Completed with examples</h2>
+                    <h4 class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful kit.</h4>
                 </div>
             </div>
           </div>
@@ -674,55 +687,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="row">
 					<div class="col-md-4 ml-auto mr-auto">
             <div class="card card-signup">
-                        <form class="form" method="" action="">
-                            <div class="card-header card-header-primary text-center">
-                                <h4 class="card-title">Log in</h4>
-                                <div class="social-line">
-                                    <a href="#pablo" class="btn btn-just-icon btn-link">
-                                        <i class="fa fa-facebook-square text-white"></i>
-                                    </a>
-                                    <a href="#pablo" class="btn btn-just-icon btn-link">
-                                        <i class="fa fa-twitter text-white"></i>
-                                    </a>
-                                    <a href="#pablo" class="btn btn-just-icon btn-link">
-                                        <i class="fa fa-google-plus text-white"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="description text-center">Or Be Classical</p>
-                            <div class="card-body">
-                                <span class="bmd-form-group"><div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="material-icons">face</i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="First Name...">
-                                </div></span>
-                                <span class="bmd-form-group"><div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="material-icons">email</i>
-                                    </span>
-                                    <input type="email" class="form-control" placeholder="Email...">
-                                </div></span>
-                                <span class="bmd-form-group"><div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="material-icons">lock_outline</i>
-                                    </span>
-                                    <input type="password" class="form-control" placeholder="Password...">
-                                </div></span>
-                                <!-- If you want to add a checkbox to this form, uncomment this code
+                  <form class="form" method="" action="">
+                      <div class="card-header card-header-primary text-center">
+                          <h4 class="card-title">Log in</h4>
+                          <div class="social-line">
+                              <a href="#pablo" class="btn btn-just-icon btn-link">
+                                  <i class="fa fa-facebook-square text-white"></i>
+                              </a>
+                              <a href="#pablo" class="btn btn-just-icon btn-link">
+                                  <i class="fa fa-twitter text-white"></i>
+                              </a>
+                              <a href="#pablo" class="btn btn-just-icon btn-link">
+                                  <i class="fa fa-google-plus text-white"></i>
+                              </a>
+                          </div>
+                      </div>
+                      <p class="description text-center">Or Be Classical</p>
+                      <div class="card-body">
+                          <span class="bmd-form-group"><div class="input-group">
+                              <span class="input-group-addon">
+                                  <i class="material-icons">face</i>
+                              </span>
+                              <input type="text" class="form-control" placeholder="First Name...">
+                          </div></span>
+                          <span class="bmd-form-group"><div class="input-group">
+                              <span class="input-group-addon">
+                                  <i class="material-icons">email</i>
+                              </span>
+                              <input type="email" class="form-control" placeholder="Email...">
+                          </div></span>
+                          <span class="bmd-form-group"><div class="input-group">
+                              <span class="input-group-addon">
+                                  <i class="material-icons">lock_outline</i>
+                              </span>
+                              <input type="password" class="form-control" placeholder="Password...">
+                          </div></span>
+                          <!-- If you want to add a checkbox to this form, uncomment this code
 
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="optionsCheckboxes" checked>
-										Subscribe to newsletter
-									</label>
-								</div> -->
-                            </div>
-                            <div class="footer text-center">
-                                <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
-                            </div>
-                        </form>
-                    </div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="optionsCheckboxes" checked>
+							Subscribe to newsletter
+						</label>
+					</div> -->
+                      </div>
+                      <div class="footer text-center">
+                          <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
+                      </div>
+                  </form>
+              </div>
 
 					</div>
 				</div>
@@ -767,8 +780,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="col-2">
                   </div>
 	                <div class="col-md-8">
-	                    <h2>Do you love this UI Kit?</h2>
-	                    <h4>Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the kit. Start a new project or give an old Bootstrap project a new look!</h4>
+	                    <h2 class="title">Do you love this UI Kit?</h2>
+	                    <h4>Cause if you do, it can be yours for FREE. Hit the buttons below to navigate to Creative Tim or Github where you can find the kit. Start a new project or give an old one project a new look!</h4>
                       <div class="col-12 text-center">
 
                           <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2FCreativeTim&width=90&layout=button_count&action=like&size=large&show_faces=true&share=false&height=21&appId" width="90" height="21" style="border:none;overflow:hidden;height:28px; width:125px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
@@ -785,79 +798,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-2">
                     </div>
                   <div class="col-md-8 text-center mb-4 mt-5">
-	                    <h2>Download your favourite</h2>
-                    </div>
-                    <div class="col-2">
+	                    <h3 class="title">Download your favourite</h3>
                     </div>
                   <div class="col-12 text-center logos">
-                    <a href="https://www.creative-tim.com/product/material-kit/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://www.creative-tim.com/product/material-kit/?ref=mk-github-presentation" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/bootstrap-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download Bootstrap 4">
+                      <div class="logo-title">Bootstrap</div>
                     </a>
-                    <a href="https://www.creative-tim.com/product/material-kit-react/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://www.creative-tim.com/product/material-kit-react/?ref=mk-github-presentation" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download React">
+                      <div class="logo-title">ReactJS</div>
                     </a>
-                    <a href="https://www.creative-tim.com/product/vue-material-kit/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://www.creative-tim.com/product/vue-material-kit/?ref=mk-github-presentation" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download Vue.js">
+                      <div class="logo-title">Vue.js</div>
                     </a>
                     
-                    <a href="https://www.creative-tim.com/product/material-kit-react-native/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://www.creative-tim.com/product/material-kit-react-native/?ref=mk-github-presentation" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-native-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download React Native">
+                      <div class="logo-title">React Native</div>
                     </a>
                     <a href="https://github.com/creativetimofficial/material-kit/tree/sketch" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/sketch-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download Sketch">
+                      <div class="logo-title">Sketch</div>
                     </a>
                     <a href="https://github.com/creativetimofficial/material-kit/tree/photoshop" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/photoshop-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download Photoshop">
+                      <div class="logo-title">Photoshop</div>
                     </a>
                   
-                    <a href="https://demos.creative-tim.com/material-kit-figma/presentation.html/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://demos.creative-tim.com/material-kit-figma/presentation.html/?ref=mk-github-presentation" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/figma-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download Figma">
+                      <div class="logo-title">Figma</div>
                     </a>
                     <a href="https://themeisle.com/themes/hestia/?ref=creativetim" target="_blank">
                       <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/wordpress-logo.png?raw=true" data-toggle="tooltip" data-placement="top" title="Download Wordpress">
+                      <div class="logo-title">WordPress</div>
                     </a>
-                    
-
-
-
+                  
                   </div>
-
                 </div>
 
-	            <div class="text-center">
-	                    <h3>Thank you for supporting us!</h3>
-                      <div class="social-line text-center">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <a href="https://twitter.com/home?status=Material%20Kit%20by%20Creative%20Tim%20https%3A//demos.creative-tim.com/material-kit/%20via%20%40CreativeTim" target="_blank" class="btn btn-twitter btn-round">
-                                <i class="fa fa-twitter mr-2"></i> Twitter
-                              </a>
-                              <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//demos.creative-tim.com/material-kit/" target="_blank" class="btn btn-facebook btn-round">
-                                <i class="fa fa-facebook-square mr-2"></i> Facebook
-                              </a>
-                              <a href="https://github.com/creativetimofficial/material-kit" target="_blank" class="btn btn-github btn-round">
-                                <i class="fa fa-github mr-2"></i> Star
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
+          <div class="text-center">
+            <h3>Thank you for supporting us!</h3>
+            <div class="social-line text-center">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <a href="https://twitter.com/home?status=Material%20Kit%20by%20Creative%20Tim%20https%3A//demos.creative-tim.com/material-kit/%20via%20%40CreativeTim" target="_blank" class="btn btn-twitter btn-round">
+                      <i class="fa fa-twitter mr-2"></i> Twitter
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//demos.creative-tim.com/material-kit/" target="_blank" class="btn btn-facebook btn-round">
+                      <i class="fa fa-facebook-square mr-2"></i> Facebook
+                    </a>
+                    <a href="https://github.com/creativetimofficial/material-kit" target="_blank" class="btn btn-github btn-round">
+                      <i class="fa fa-github mr-2"></i> Star
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 	        </div>
 	    </div>
     </div>
     <footer class="footer">
         <div class="container">
-            <a class="footer-brand" href="https://www.creative-tim.com">Material Kit.</a>
+            <a class="footer-brand" href="https://www.creative-tim.com/product/material-kit?ref=mk-github-presentation">Material Kit.</a>
             <ul class="pull-center">
                 <li>
-                    <a href="https://www.creative-tim.com/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://www.creative-tim.com/?ref=mk-github-presentation" target="_blank">
                         Creative Tim
                     </a>
                 </li>
                 <li>
-                    <a href="https://creative-tim.com/presentation/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://creative-tim.com/presentation/?ref=mk-github-presentation" target="_blank">
                         About Us
                     </a>
                 </li>
@@ -867,7 +881,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.creative-tim.com/license/?ref=mk-all-technologies-presentation" target="_blank">
+                    <a href="https://www.creative-tim.com/license/?ref=mk-github-presentation" target="_blank">
                         Licenses
                     </a>
                 </li>
@@ -911,12 +925,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     <script type="text/javascript">
-
         $(document).ready(function() {
-
-
           materialKitDemo.presentationAnimations();
-
         });
     </script>
 </body>
