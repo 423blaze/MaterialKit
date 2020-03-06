@@ -5,6 +5,7 @@
 - Solved the broken links
 - Updated NoUiSlider plugin
 - Solved the existing bugs
+- Change variables from `$brand-color` to `$color`
 
 ## [2.0.5] 2018-11-23
 ### Improvements, BugFixing
