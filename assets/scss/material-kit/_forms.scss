@@ -40,7 +40,6 @@ form {
   &:focus,
   .bmd-form-group.is-focused & {
     background-size: $bmd-form-control-bg-size-active;
-    //border-bottom: $input-btn-border-width solid $input-border-color;
     transition-duration: 0.3s;
     box-shadow: none;
   }
@@ -96,11 +95,11 @@ form {
 @include bmd-form-color($bmd-label-color, $bmd-label-color-focus, $input-border-color, $input-border-color);
 
 .has-success {
-  @include bmd-form-color($brand-success, $brand-success, $brand-success, $input-border-color);
+  @include bmd-form-color($success, $success, $success, $input-border-color);
 }
 
 .has-info {
-  @include bmd-form-color($brand-info, $brand-info, $brand-info, $input-border-color);
+  @include bmd-form-color($info, $info, $info, $input-border-color);
 }
 
 .has-white{
@@ -114,15 +113,15 @@ form {
 }
 
 .has-warning {
-  @include bmd-form-color($brand-warning, $brand-warning, $brand-warning, $input-border-color);
+  @include bmd-form-color($warning, $warning, $warning, $input-border-color);
 }
 
 .has-danger {
-  @include bmd-form-color($brand-danger, $brand-danger, $brand-danger, $input-border-color);
+  @include bmd-form-color($danger, $danger, $danger, $input-border-color);
 }
 
 .has-rose {
-  @include bmd-form-color($brand-rose, $brand-rose, $brand-rose, $input-border-color);
+  @include bmd-form-color($rose, $rose, $rose, $input-border-color);
 }
 
 // Reference http://www.google.com/design/spec/components/text-fields.html
@@ -228,44 +227,6 @@ select {
     -webkit-appearance: none;
   }
 }
-
-// Input files - hide actual input - requires specific markup in the sample.
-//.bmd-form-group input[type=file] {
-//  opacity: 0;
-//  position: absolute;
-//  top: 0;
-//  right: 0;
-//  bottom: 0;
-//  left: 0;
-//  width: 100%;
-//  height: 100%;
-//  z-index: 100;
-//}
-
-//
-//
-//.form-horizontal {
-//
-//  // Consistent vertical alignment of radios and checkboxes
-//  .radio,
-//  .checkbox,
-//  .radio-inline,
-//  .checkbox-inline {
-//    padding-top: 0;
-//  }
-//
-//  .radio {
-//    margin-bottom: 10px;
-//  }
-//
-//  label {
-//    text-align: right;
-//  }
-//
-//  label {
-//    margin: 0;
-//  }
-//}
 
 
 .form-inline {

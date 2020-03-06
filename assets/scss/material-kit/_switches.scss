@@ -61,7 +61,7 @@
           &::after {
             left: unquote(
               "calc(100% - #{$bmd-switch-handle-size})"
-            ); //calc(100% - $bmd-switch-handle-size);
+            );
             background-color: $bmd-switch-handle-checked-bg;
           }
         }

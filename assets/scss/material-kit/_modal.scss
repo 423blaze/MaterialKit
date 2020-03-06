@@ -64,28 +64,17 @@
   background: rgba(0,0,0,0.5);
 }
 
-.modal{
-  .modal-dialog{
-    margin-top: 130px;
-  }
-  .modal-header .close{
+.modal {
+  .modal-header .close {
     color: $gray-light;
 
     &:hover,
-    &:focus{
-        opacity: 1;
+    &:focus {
+      opacity: 1;
     }
 
-    i{
-        font-size: 16px;
+    i {
+      font-size: 16px;
     }
   }
-}
-
-.show:not(.modal) .dropdown-toggle:after {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
 }

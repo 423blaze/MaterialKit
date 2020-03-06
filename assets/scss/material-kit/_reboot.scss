@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF;
+  background-color: $white;
 }
 
 a {
@@ -10,15 +10,5 @@ a {
 
 button:focus {
   outline: none;
-  //outline: 1px dotted;
-  //outline: 5px auto -webkit-focus-ring-color;
-}
 
-//// Prevent highlight on mobile
-//* {
-//  -webkit-tap-highlight-color: rgba($white, 0);
-//  -webkit-tap-highlight-color: transparent;
-//  &:focus {
-//    outline: 0;
-//  }
-//}
+}

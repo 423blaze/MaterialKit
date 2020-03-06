@@ -4,12 +4,12 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
   line-height: 1.5em;
 }
 
-h1,h2,h3,.h1,.h2,.h3{
+h1,h2,h3,.h1,.h2,.h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-h4,h5,h6,.h4,.h5,.h6{
+h4,h5,h6,.h4,.h5,.h6 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -20,42 +20,42 @@ html *{
 }
 
 h1, .h1 {
-    font-size: $font-size-h1;
+    font-size: $h1-font-size;
     line-height: 1.15em;
 }
-h2, .h2{
-    font-size: $font-size-h2;
+h2, .h2 {
+    font-size: $h2-font-size;
     line-height: 1.5em;
 }
-h3, .h3{
-    font-size: $font-size-h3;
+h3, .h3 {
+    font-size: $h3-font-size;
     line-height: 1.4em;
 }
-h4, .h4{
-    font-size: $font-size-h4;
+h4, .h4 {
+    font-size: $h4-font-size;
     line-height: 1.5em;
 }
 h5, .h5 {
-    font-size: $font-size-h5;
+    font-size: $h5-font-size;
     line-height: 1.55em;
     margin-bottom: 15px;
 }
-h6, .h6{
-    font-size: $font-size-h6;
+h6, .h6 {
+    font-size: $h6-font-size;
     text-transform: uppercase;
     font-weight: $font-weight-bold;
 }
-p{
+p {
     font-size: $font-paragraph;
     margin: 0 0 10px;
 }
 
-b{
+b {
     font-weight: 700;
 }
 
 small,
-.small{
+.small {
     font-size: 75%;
     color: #777;
 }
@@ -88,55 +88,55 @@ h2.title{
 }
 
 .text-warning {
-  color: $brand-warning !important;
+  color: $warning !important;
 }
 .text-primary {
-  color: $brand-primary !important;
+  color: $primary !important;
 }
 .text-danger {
-  color: $brand-danger !important;
+  color: $danger !important;
 }
 .text-success {
-  color: $brand-success !important;
+  color: $success !important;
 }
 .text-info {
-  color: $brand-info !important;
+  color: $info !important;
 }
-.text-rose{
-    color: $brand-rose !important;
+.text-rose {
+    color: $rose !important;
 }
-.text-gray{
+.text-gray {
     color: $gray-color !important;
 }
 
-.space{
+.space {
     height: 130px;
     display: block;
 }
-.space-110{
+.space-110 {
     height: 110px;
     display: block;
 }
-.space-50{
+.space-50 {
     height: 50px;
     display: block;
 }
-.space-70{
+.space-70 {
     height: 70px;
     display: block;
 }
 
-.blockquote{
+.blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     border-left: 5px solid #eee;
 
-    p{
+    p {
         font-size: 1.063rem;
         font-style: italic;
     }
 
-    small{
+    small {
         display: block;
         font-size: 80%;
         line-height: 1.42857143;
