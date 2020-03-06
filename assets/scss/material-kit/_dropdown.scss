@@ -127,7 +127,7 @@
   a:focus,
   a:active {
     @include shadow-small-color($primary);
-    background-color: $primary !important;
+    background-color: $primary;
     color: $white !important;
   }
 }
