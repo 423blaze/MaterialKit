@@ -344,17 +344,6 @@
 
             &.today > div{
                 position: relative;
-
-                &:before {
-                    content: '';
-                    display: inline-block;
-                    border: 0 0 7px 7px solid transparent;
-                    border-bottom-color: $bs-datetimepicker-active-bg;
-                    border-top-color: $bs-datetimepicker-secondary-border-color-rgba;
-                    position: absolute;
-                    bottom: 4px;
-                    right: 4px;
-                }
             }
 
             &.active > div,

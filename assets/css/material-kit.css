@@ -17748,17 +17748,6 @@ footer .pull-center {
   position: relative;
 }
 
-.bootstrap-datetimepicker-widget table td.today>div:before {
-  content: '';
-  display: inline-block;
-  border: 0 0 7px 7px solid transparent;
-  border-bottom-color: #9c27b0;
-  border-top-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  bottom: 4px;
-  right: 4px;
-}
-
 .bootstrap-datetimepicker-widget table td.active>div,
 .bootstrap-datetimepicker-widget table td.active:hover>div {
   background-color: #9c27b0;
