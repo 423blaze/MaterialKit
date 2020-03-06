@@ -13,11 +13,11 @@
 
  */
 /*     brand Colors              */
-.carousel.carousel-full-nagivation .left {
+.carousel.carousel-full-navigation .left {
   cursor: url("../../img/arrow-left.png"), url("../../img/arrow-left.cur"), default !important;
 }
 
-.carousel.carousel-full-nagivation .right {
+.carousel.carousel-full-navigation .right {
   cursor: url("../../img/arrow-right.png"), url("../../img/arrow-right.cur"), default !important;
 }
 
@@ -12621,17 +12621,17 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
   text-align: center;
 }
 
-.carousel.carousel-full-nagivation .carousel-control {
+.carousel.carousel-full-navigation .carousel-control {
   width: 50%;
 }
 
-.carousel.carousel-full-nagivation .carousel-control.left,
-.carousel.carousel-full-nagivation .carousel-control.right {
+.carousel.carousel-full-navigation .carousel-control.left,
+.carousel.carousel-full-navigation .carousel-control.right {
   background-image: none;
 }
 
-.carousel.carousel-full-nagivation .carousel-control .material-icons,
-.carousel.carousel-full-nagivation .carousel-control .fa {
+.carousel.carousel-full-navigation .carousel-control .material-icons,
+.carousel.carousel-full-navigation .carousel-control .fa {
   display: none;
 }
 
