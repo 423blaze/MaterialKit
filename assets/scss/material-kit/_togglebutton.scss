@@ -38,7 +38,7 @@
       display: inline-block;
       width: 20px;
       height: 20px;
-      background-color: #FFFFFF;
+      background-color: $white;
       border-radius: 20px;
       position: relative;
       box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
@@ -70,15 +70,15 @@
     // set bg when checked
     input[type=checkbox]:checked {
       + .toggle {
-        background-color: rgba($brand-primary, (70/100)); // Switch bg on
+        background-color: rgba($primary, (70/100)); // Switch bg on
       }
 
       + .toggle:after {
-        border-color: $brand-primary; // Handle on
+        border-color: $primary; // Handle on
       }
 
       + .toggle:active:after {
-        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba($brand-primary, (10/100)); // Ripple on
+        box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba($primary, (10/100)); // Ripple on
       }
     }
   }

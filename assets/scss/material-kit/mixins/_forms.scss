@@ -20,8 +20,6 @@
   .checkbox label,
   .checkbox-inline,
   .switch label {
-    // override bootstrap focus and keep all the standard color (could be multiple radios in the form group)
-    //color: $bmd-label-color;
 
     &,
     .is-focused & {
@@ -42,15 +40,6 @@
       }
     }
   }
-
-  // Style for disabled inputs  OLD, use color approach with opacity built in, see radios
-  //fieldset[disabled] &,
-  //fieldset[disabled] & input[type=checkbox],
-  //input[type=checkbox][disabled]:not(:checked) ~ .checkbox-decorator .check::before,
-  //input[type=checkbox][disabled]:not(:checked) ~ .checkbox-decorator .check,
-  //input[type=checkbox][disabled] + .bmd-radio-outer-circle {
-  //  opacity: 0.5;
-  //}
 }
 
 @mixin bmd-radio-color($color) {
@@ -172,11 +161,6 @@
       border-color: $border-color;
     }
 
-    // Set validation states also for addons
-    //.input-group-addon {
-    //  border-color: $border-color;
-    //}
-
     .bmd-help {
       color: $bmd-label-color-inner-focus;
     }
@@ -204,36 +188,6 @@
   $label-placeholder-top: $label-top-margin + $static-font-size +
     $variant-padding-y;
 
-  //@debug "font-size: #{$font-size} static-font-size: #{$static-font-size} help-font-size: #{$help-font-size} form-group-context: #{$form-group-context} ";
-
-  //Label height: 72dp
-  //Padding above label text: 16dp
-  //Padding between label and input text: 8dp
-  //Padding below input text (including divider): 16dp
-  //Padding below text divider: 8dp
-
-  // @if $form-group-context {
-  //   // Create a space at the top of the bmd-form-group for the label.
-  //   //  The label is absolutely positioned, so we use top padding to make space.  This padding extends over the label down to the top of the input (padding).
-  //   padding-top: ($label-top-margin + $static-font-size);
-  //   // note: bottom-margin of this is determined by $spacer.  @see _spacer.scss
-  //   //margin-bottom: (1.5 * $help-font-size);
-  // }
-
-  // TODO: remove this when known stable.  https://github.com/FezVrasta/bootstrap-material-design/issues/849
-  //@else {
-  //
-  //  // for radios and checkboxes without a form-group, add some extra vertical spacing to pad down so that
-  //  //  any help text above is not encroached upon, or so that it appears more evenly spaced vs form-groups
-  //  .radio,
-  //  label.radio-inline,
-  //  .checkbox,
-  //  label.checkbox-inline,
-  //  .switch {
-  //    padding-top: $spacer-y;
-  //  }
-  //}
-
   // Set all line-heights preferably to 1 so that we can space out everything manually without additional added space
   //  from the default line-height of 1.5
   .form-control,
@@ -254,11 +208,6 @@
     line-height: $line-height-base; // keep the same line height for radios and checkboxes
   }
 
-  // Note: this may be inside or outside a form-group, may be .bmd-form-group.bmd-form-group-sm or .bmd-form-group.bmd-form-group-lg
-  // input::placeholder {
-  //   font-size: $font-size;
-  // }
-
   // generic labels used anywhere in the form
   .checkbox label,
   .radio label,
@@ -269,7 +218,6 @@
   // floating/placeholder default (no focus)
   .bmd-label-floating,
   .bmd-label-placeholder {
-    //@debug "top: #{$label-as-placeholder-top}";
     top: $label-placeholder-top; // place the floating label to look like a placeholder with input padding
   }
 
@@ -285,10 +233,6 @@
   .bmd-label-static {
     @include bmd-label-static($label-static-top - 0.65, $static-font-size);
   }
-  // #559 Fix for webkit/chrome autofill - rule must be separate because it breaks firefox otherwise #731
-  //input:-webkit-autofill ~ .bmd-label-floating {  FIXME: confirm that the autofill js generation of change event makes this unnecessary
-  //  @include bmd-label-static($label-top, $static-font-size, $static-line-height);
-  //}
 
   .bmd-help {
     margin-top: 0; // allow the input margin to set-off the top of the help-block
@@ -356,22 +300,22 @@
 
 @mixin create-colored-tags(){
     &.tag-primary{
-        @include tag-color($brand-primary);
+        @include tag-color($primary);
     }
     &.tag-info {
-        @include tag-color($brand-info);
+        @include tag-color($info);
     }
     &.tag-success{
-        @include tag-color($brand-success);
+        @include tag-color($success);
     }
     &.tag-warning{
-        @include tag-color($brand-warning);
+        @include tag-color($warning);
     }
     &.tag-danger{
-        @include tag-color($brand-danger);
+        @include tag-color($danger);
     }
     &.tag-rose{
-      @include tag-color($brand-rose);
+      @include tag-color($rose);
     }
 }
 @mixin tag-color ($color){

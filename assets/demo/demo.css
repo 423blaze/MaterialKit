@@ -144,14 +144,17 @@
   color: #ddd !important;
 }
 
+
 .parallax {
   width: 100%;
   height: 570px;
+
   display: block;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
 }
 
 .logo-container .logo {
@@ -226,6 +229,7 @@
   margin-top: 0;
 }
 
+
 .parallax .parallax-image {
   width: 100%;
   overflow: hidden;
@@ -242,6 +246,7 @@
     height: 640px;
     overflow: hidden;
   }
+
   .parallax .parallax-image img {
     height: 100%;
     width: auto;
@@ -308,10 +313,12 @@
 }
 
 @media (max-width: 768px) {
+
   .btn,
   .btn-morphing {
     margin-bottom: 10px;
   }
+
   .parallax .motto {
     top: 170px;
     margin-top: 0;
@@ -323,7 +330,6 @@
 /*       Loading dots  */
 
 /*      transitions */
-
 .presentation .front,
 .presentation .front:after,
 .presentation .front .btn,
@@ -334,6 +340,7 @@
   -o-transition: all .2s;
   transition: all .2s;
 }
+
 
 #images h4 {
   margin-bottom: 30px;
@@ -346,6 +353,7 @@
 #javascriptComponents .btn-raised {
   margin: 10px 0px;
 }
+
 
 /*      layer animation          */
 
@@ -436,6 +444,7 @@
 
 .sharing-area .btn-github:active:focus {
   background-color: #333333;
+
 }
 
 .section-thin,
@@ -549,6 +558,7 @@
   min-height: auto !important;
 }
 
+
 /*  PRESENTION PAGE   */
 
 /* Section Components */
@@ -596,6 +606,7 @@
   left: 70%;
   top: 67%;
   height: 40px;
+
 }
 
 .section-components .coloured-card-btn-img {
@@ -623,6 +634,7 @@
   left: 3%;
   top: -3%;
   height: 25px;
+
 }
 
 /* Section Content */
@@ -694,15 +706,18 @@
   opacity: 1 !important;
 }
 
+
 /*  animated images  */
 
 @-webkit-keyframes Floatingy {
   from {
     -webkit-transform: translate(0, 0px);
   }
+
   65% {
     -webkit-transform: translate(50px, 0);
   }
+
   to {
     -webkit-transform: translate(0, -0px);
   }
@@ -712,9 +727,11 @@
   from {
     -moz-transform: translate(0, 0px);
   }
+
   65% {
     -moz-transform: translate(50px, 0);
   }
+
   to {
     -moz-transform: translate(0, -0px);
   }
@@ -724,9 +741,11 @@
   from {
     -webkit-transform: translate(50px, 0px);
   }
+
   65% {
     -webkit-transform: translate(0, 0);
   }
+
   to {
     -webkit-transform: translate(50px, -0px);
   }
@@ -736,13 +755,16 @@
   from {
     -moz-transform: translate(50px, 0px);
   }
+
   65% {
     -moz-transform: translate(0, 0);
   }
+
   to {
     -moz-transform: translate(50px, -0px);
   }
 }
+
 
 .table-img,
 .coloured-card-img,
@@ -818,6 +840,7 @@
 }
 
 @keyframes bounce {
+
   from,
   20%,
   53%,
@@ -826,15 +849,18 @@
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transform: translate3d(0, 0, 0);
   }
+
   40%,
   43% {
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     transform: translate3d(0, -30px, 0);
   }
+
   70% {
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     transform: translate3d(0, -15px, 0);
   }
+
   90% {
     transform: translate3d(0, -4px, 0);
   }
@@ -846,11 +872,13 @@
 }
 
 @keyframes flash {
+
   from,
   50%,
   to {
     opacity: 1;
   }
+
   25%,
   75% {
     opacity: 0;

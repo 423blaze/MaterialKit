@@ -4,7 +4,7 @@
  * https://github.com/Eonasdan/bootstrap-datetimepicker/
  */
  $bs-datetimepicker-timepicker-font-size: 1.2em !default;
- $bs-datetimepicker-active-bg: $brand-primary !default;
+ $bs-datetimepicker-active-bg: $primary !default;
  $bs-datetimepicker-active-color: $white-color !default;
  $bs-datetimepicker-border-radius: $border-radius-base;
  $bs-datetimepicker-btn-hover-bg: #eee !default;
@@ -105,7 +105,7 @@
         margin: 0;
         border-width: 0;
         background-color: transparent;
-        color: $brand-primary;
+        color: $primary;
         box-shadow: none;
 
         &:hover{
@@ -113,7 +113,7 @@
 
             span{
                 background-color: $bs-datetimepicker-btn-hover-bg;
-                color: $brand-primary;
+                color: $primary;
             }
         }
     }
@@ -127,7 +127,7 @@
         height: 40px;
         line-height: 40px;
         font-weight: $font-weight-light;
-        font-size: $font-size-h4;
+        font-size: $h4-font-size;
         margin: 0;
         border-radius: 50%;
     }
@@ -344,24 +344,13 @@
 
             &.today > div{
                 position: relative;
-
-                &:before {
-                    content: '';
-                    display: inline-block;
-                    border: 0 0 7px 7px solid transparent;
-                    border-bottom-color: $bs-datetimepicker-active-bg;
-                    border-top-color: $bs-datetimepicker-secondary-border-color-rgba;
-                    position: absolute;
-                    bottom: 4px;
-                    right: 4px;
-                }
             }
 
             &.active > div,
             &.active:hover > div {
                 background-color: $bs-datetimepicker-active-bg;
                 color: $bs-datetimepicker-active-color;
-                @include shadow-small-color($brand-primary);
+                @include shadow-small-color($primary);
             }
 
             &.active.today:before > div{

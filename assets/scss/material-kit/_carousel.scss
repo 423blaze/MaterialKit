@@ -1,12 +1,12 @@
-.carousel{
-    .carousel-control{
+.carousel {
+    .carousel-control {
         &.left,
-        &.right{
+        &.right {
             background-image: none;
         }
 
-        &.right{
-            i{
+        &.right {
+            i {
                 right: 0;
             }
         }
@@ -19,7 +19,7 @@
     .item{
         text-align: center;
     }
-    &.carousel-full-nagivation{
+    &.carousel-full-navigation{
       .carousel-control{
           width: 50%;
 
@@ -69,9 +69,9 @@
             height: 10px;
             text-indent: -999px;
             cursor: pointer;
-            border: 1px solid #fff;
+            border: 1px solid $white;
             border-radius: 10px;
-            background: #FFFFFF;
+            background: $white;
             @include shadow-2dp();
             @extend .animation-transition-general;
             border-radius: $border-radius-small;
