@@ -1,6 +1,6 @@
 # Change Log
 
-## [2.0.7] 2020-03-06
+## [2.0.7] 2020-03-09
 ### BugFixing
 - Solved the broken links
 - Updated NoUiSlider plugin
