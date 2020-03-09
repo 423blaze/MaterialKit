@@ -25,7 +25,7 @@ This new design has elements that have been the result of research regarding ink
 * [Browser Support](#browser-support)
 * [Resources](#resources)
 * [Reporting Issues](#reporting-issues)
-* [Upgrade to Pro Version](#upgrade_pro)
+* [Upgrade to Pro Version](#upgrade-to-pro-version)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
 
