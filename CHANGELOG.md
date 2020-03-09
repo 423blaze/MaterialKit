@@ -7,6 +7,10 @@
 - Solved the existing bugs
 - Change variables from `$brand-color` to `$color`
 
+## [2.0.6] 2019-09-03
+### Improvements, BugFixing
+- Bug fixing (javascript file)
+
 ## [2.0.5] 2018-11-23
 ### Improvements, BugFixing
 - Changes for responsive devices
