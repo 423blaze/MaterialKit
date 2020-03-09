@@ -1,6 +1,15 @@
 // Menus https://www.google.com/design/spec/components/menus.html#menus-specs
 // Dropdown buttons (mobile and desktop) https://www.google.com/design/spec/components/buttons.html#buttons-dropdown-buttons
 
+.dropdown {
+  &:after{
+    @include rotate-0();
+  }
+  &.show > .dropdown-toggle:after{
+    @include rotate-180();
+  }
+}
+
 .dropdown-menu {
   display: none;
   padding: $bmd-dropdown-margin-y 0;
@@ -111,12 +120,15 @@
 
   .dropdown-item:hover,
   .dropdown-item:focus,
+  .dropdown-item:active,
+  a:active,
+  a.active,
   a:hover,
   a:focus,
   a:active {
-    @include shadow-small-color($brand-primary);
-    background-color: $brand-primary;
-    color: #FFFFFF;
+    @include shadow-small-color($primary);
+    background-color: $primary;
+    color: $white !important;
   }
 }
 
@@ -138,11 +150,12 @@
   }
 
   &:after{
-      will-change: transform;
-      transition: transform $bmd-animation-dropdown-caret linear;
+    will-change: transform;
+    transition: transform $bmd-animation-dropdown-caret linear;
+    @include rotate-0();
   }
 
-  .show &:after{
+  &.open:after {
     @include rotate-180();
   }
 

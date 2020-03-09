@@ -140,7 +140,7 @@
           bottom: 15px;
           left: 15px;
           color: $white-color;
-          font-size: $font-size-h4;
+          font-size: $h4-font-size;
           text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
         }
 
@@ -210,26 +210,26 @@
     }
 
     .card-header-primary{
-      @include shadow-big-color($brand-primary);
+      @include shadow-big-color($primary);
     }
     .card-header-danger{
-      @include shadow-big-color($brand-danger);
+      @include shadow-big-color($danger);
     }
 
     .card-header-rose{
-      @include shadow-big-color($brand-rose);
+      @include shadow-big-color($rose);
     }
 
     .card-header-warning{
-      @include shadow-big-color($brand-warning);
+      @include shadow-big-color($warning);
     }
 
     .card-header-info{
-      @include shadow-big-color($brand-info);
+      @include shadow-big-color($info);
     }
 
     .card-header-success{
-      @include shadow-big-color($brand-success);
+      @include shadow-big-color($success);
     }
 
     [class*="header-"],

@@ -342,15 +342,8 @@
   }
 
   .login-page {
-    .page-header {
-      min-height: 100vh;
-      max-height: 1000px;
-      height: 100%;
-
-      > .container {
-        padding-top: 20vh;
-        padding-bottom: 200px;
-      }
+    .page-header > .container {
+      padding-bottom: 200px;
     }
   }
 }

@@ -9,35 +9,35 @@
 
 .badge-default[href]:hover,
 .badge-default[href]:focus {
-  background-color: darken($brand-default, 5%);
+  background-color: darken($default, 5%);
 }
 
 .badge-primary[href]:hover,
 .badge-primary[href]:focus {
-  background-color: darken($brand-primary, 5%);
+  background-color: darken($primary, 5%);
 }
 
 .badge-info[href]:hover,
 .badge-info[href]:focus {
-  background-color: darken($brand-info, 5%);
+  background-color: darken($info, 5%);
 }
 
 .badge-success[href]:hover,
 .badge-success[href]:focus {
-  background-color: darken($brand-success, 5%);
+  background-color: darken($success, 5%);
 }
 
 .badge-warning[href]:hover,
 .badge-warning[href]:focus {
-  background-color: darken($brand-warning, 5%);
+  background-color: darken($warning, 5%);
   color: $white-color;
 }
 
 .badge-danger[href]:hover,
 .badge-danger[href]:focus {
-  background-color: darken($brand-danger, 5%);
+  background-color: darken($danger, 5%);
 }
 .badge-rose[href]:hover,
 .badge-rose[href]:focus {
-  background-color: darken($brand-rose, 5%);
+  background-color: darken($rose, 5%);
 }

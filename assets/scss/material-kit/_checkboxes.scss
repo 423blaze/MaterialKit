@@ -5,7 +5,6 @@
     .form-check-label {
         cursor: pointer;
         padding-left: 0; // Reset for Bootstrap rule
-        // color: $mdb-checkbox-label-color;
         @include mdb-label-color-toggle-focus();
     }
 
@@ -87,12 +86,12 @@
         }
 
         &:checked {
-            & + .form-check-sign .check {
+            & ~ .form-check-sign .check {
                 background: $mdb-checkbox-checked-color;
             }
 
-            & + .form-check-sign .check:before {
-                color: #FFFFFF;
+            & ~ .form-check-sign .check:before {
+                color: $white;
                 box-shadow: 0 0 0 10px,
                             10px -10px 0 10px,
                             32px 0 0 20px,
@@ -102,12 +101,11 @@
                 @include animation(checkbox-on $mdb-checkbox-animation-check forwards);
             }
 
-            & + .form-check-sign:before {
+            & ~ .form-check-sign:before {
             @include animation(rippleOn $mdb-checkbox-animation-ripple);
             }
 
-            & + .form-check-sign .check:after {
-            //background-color: $brand-success; // FIXME: seems like tho wrong color, test and make sure it can be removed
+            & ~ .form-check-sign .check:after {
             @include animation(rippleOn $mdb-checkbox-animation-ripple forwards);
             }
         }

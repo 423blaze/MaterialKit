@@ -26,7 +26,7 @@
         margin-right: 10px;
 
         >i{
-            font-size: $font-size-h2;
+            font-size: $h2-font-size;
         }
     }
     .description{
@@ -37,21 +37,21 @@
 
 .icon {
   &.icon-primary {
-    color: $brand-primary;
+    color: $primary;
     }
   &.icon-info {
-    color: $brand-info;
+    color: $info;
   }
   &.icon-success {
-    color: $brand-success;
+    color: $success;
   }
   &.icon-warning {
-    color: $brand-warning;
+    color: $warning;
   }
   &.icon-danger {
-    color: $brand-danger;
+    color: $danger;
   }
   &.icon-rose {
-    color: $brand-rose;
+    color: $rose;
 }
 }

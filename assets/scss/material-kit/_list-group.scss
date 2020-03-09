@@ -50,11 +50,8 @@
 
   .list-group-item-text {
     // word wrap? http://stackoverflow.com/a/26535469/2363935
-    //flex-flow: row wrap;
     min-width: 0;
     max-height: 2.188rem; // 88dp tile total height
-    // FIXME: text overflow with ellipsis is not working
-    //flex: 0 1 auto; //    http://stackoverflow.com/questions/12022288/how-to-keep-a-flex-item-from-overflowing-due-to-its-text
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -88,11 +85,6 @@
   .material-icons.pull-xl-right,
   .material-icons ~ .material-icons:last-child {
     padding-left: 1rem; // guarantee space per spec
-  }
-  //------
-
-  .list-group-item-heading {
-    //font-size: 1rem;
   }
 
   .list-group-item-text {

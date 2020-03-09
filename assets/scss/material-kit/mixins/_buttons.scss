@@ -170,11 +170,9 @@
     darken($background, 3%),
     lighten($background, 3%)
   );
-  //$focus-background: darken($background, 10%);  // default bootstrap
   $focus-border: darken($border, 12%);
 
   $active-background: $focus-background;
-  //$active-background: darken($background, 17%);
   $active-border: darken($border, 25%);
 
   @include bmd-button-variant($color,
@@ -284,7 +282,6 @@
   &.active {
     &:focus,
     &.focus {
-      //@include tab-focus();
       outline: 0;
       box-shadow: none !important;
     }

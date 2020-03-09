@@ -31,7 +31,7 @@ a{
 
   &.text-info{
       &:hover, &:focus{
-          color: darken($brand-info, 5%);
+          color: darken($info, 5%);
       }
   }
 
@@ -41,7 +41,7 @@ a{
 }
 
 .main{
-    background: #FFFFFF;
+    background: $white-color;
     position: relative;
     z-index: 3;
 }
@@ -121,18 +121,6 @@ label{
 
     &:after {
       background: rgba(0, 0, 0, 0.5) !important;
-      content: "";
-      display: block;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 2;
-    }
-
-    .container {
-      z-index: 3;
     }
   }
   .footer {
@@ -141,7 +129,7 @@ label{
     background: transparent;
     bottom: 0;
     color: $white-color;
-    z-index: 2;
+    z-index: 1;
 
     .copyright a{
       color: $white-color;
@@ -388,7 +376,7 @@ label{
 
 .separator{
     content: "Separator";
-    color: #FFFFFF;
+    color: $white-color;
     display: block;
     width: 100%;
     padding: 20px;
@@ -429,7 +417,7 @@ label{
 }
 .sharing-area .btn{
     margin: 15px 4px 0;
-    color: #FFFFFF;
+    color: $white-color;
 }
 .sharing-area .btn i{
     font-size: 18px;
@@ -446,8 +434,8 @@ label{
 .sharing-area .btn-facebook{
     background-color: #3b5998;
 }
-.sharing-area .btn-google-plus{
-    background-color: #dd4b39;
+.sharing-area .btn-instagram{
+    background-color: #e4405f;
 }
 .sharing-area .btn-github{
     background-color: #333333;
@@ -537,7 +525,7 @@ label{
       padding: 3px 7px;
       font-size: 8px;
       line-height: 9px;
-      background-color: $brand-primary;
+      background-color: $primary;
     }
   }
 

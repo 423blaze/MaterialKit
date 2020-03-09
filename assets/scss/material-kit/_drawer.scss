@@ -14,8 +14,6 @@
   overflow: visible;
   overflow-y: auto;
   font-size: .875rem;
-  //color: $bmd-layout-drawer-text-color;
-  //background: $bmd-layout-drawer-bg-color;
 
   // Transform offscreen.
   transition: transform;
@@ -97,25 +95,3 @@
     @include bmd-drawer-y-overlay-down($breakpoint);
   }
 }
-
-////----
-//// Example 1: creates a media responsive kitchen-sink-drawer that pairs with bmd-drawer-in-lg and allows for the bmd-drawer-in trigger
-//.kitchen-sink-drawer {
-//  $custom-size: 500px;
-//  @include bmd-drawer-x-out($custom-size);
-//  &:not(.bmd-drawer-out) {
-//    @each $breakpoint in map-keys($grid-breakpoints) {
-//      @include bmd-drawer-x-in-up($custom-size, $breakpoint);
-//    }
-//  }
-//}
-//
-////
-////----
-//// Example 2: creates a NON-responsive kitchen-sink-drawer and allows for the bmd-drawer-in trigger
-//.kitchen-sink-drawer-static {
-//  $custom-size: 500px;
-//  @include bmd-drawer-x-out($custom-size); // closed by default
-//  @include bmd-drawer-x-in($custom-size); // triggered with bmd-drawer-in
-//  @include bmd-drawer-x-overlay(); // overlay by default, no other classes necessary
-//}

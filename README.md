@@ -1,7 +1,7 @@
 # [Material Kit](https://demos.creative-tim.com/material-kit/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20is%20a%20Free%20Bootstrap%204%20UI%20Kit%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/material-kit/index.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
 
 
- ![version](https://img.shields.io/badge/version-2.0.6-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+ ![version](https://img.shields.io/badge/version-2.0.7-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-kit/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit/material-kit.gif)
@@ -25,6 +25,7 @@ This new design has elements that have been the result of research regarding ink
 * [Browser Support](#browser-support)
 * [Resources](#resources)
 * [Reporting Issues](#reporting-issues)
+* [Upgrade to Pro Version](#upgrade_pro)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
 
@@ -50,11 +51,11 @@ This new design has elements that have been the result of research regarding ink
 
 | Buttons | Inputs | Navbars  |
 | --- | --- | ---  |
-| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/buttons.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#buttons)  | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/inputs.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#inputs)  | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/navbar-section.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#navigation)  
+| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/buttons.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#buttons)  | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/inputs.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#inputs)  | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/navbar-section.png?raw=true)](https://demos.creative-tim.com/material-kit/index.html#navigation)
 
 | Login Page | Landing Page | Profile Page  |
 | --- | --- | ---  |
-| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit/login-page.png)](https://demos.creative-tim.com/material-kit/index.html#carousel)  | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/landing-page.png?raw=true)](https://demos.creative-tim.com/material-kit/examples/landing-page.html)  | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/profile-page.png?raw=true)](https://demos.creative-tim.com/material-kit/examples/profile-page.html)  
+| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-kit/login-page.png)](https://demos.creative-tim.com/material-kit/index.html#carousel)  | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/landing-page.png?raw=true)](https://demos.creative-tim.com/material-kit/examples/landing-page.html)  | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/material-kit/profile-page.png?raw=true)](https://demos.creative-tim.com/material-kit/examples/profile-page.html)
 
 [View More](https://demos.creative-tim.com/material-kit/index.html)
 
@@ -149,9 +150,13 @@ We use GitHub Issues as the official bug tracker for the Material Kit. Here are 
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
+## Upgrade to PRO Version
+
+Are you looking for more components? Please check our Premium Version of Material Kit right [here](https://www.creative-tim.com/product/material-kit-pro).
+
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/?ref=mk-github-readme)
+- Copyright 2020 Creative Tim (https://www.creative-tim.com/?ref=mk-github-readme)
 
 - Licensed under MIT (https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md)
 
