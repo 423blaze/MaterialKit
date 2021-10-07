@@ -1,7 +1,7 @@
 {
   "name": "material-kit",
-  "version": "2.0.7",
-  "description": "Material Kit, a Google Material Desgin. Coded by Creative Tim",
+  "version": "3.0.0",
+  "description": "Freebie UI Kit for Bootstrap 5",
   "main": "index.html",
   "directories": {
     "example": "root"
@@ -17,11 +17,10 @@
     "url": "git+https://github.com/creativetimofficial/material-kit.git"
   },
   "keywords": [
-    "material kit",
-    "bootstrap material admin",
-    "bootstrap material kit",
-    "material design admin",
-    "material design",
+    "material kit 2",
+    "bootstrap 5",
+    "design system",
+    "ui kit",
     "creative tim",
     "html kit",
     "html css kit",
@@ -29,8 +28,7 @@
     "freebie",
     "free bootstrap kit",
     "css3 kit",
-    "bootstrap admin",
-    "bootstrap kit",
+    "bootstrap design system",
     "frontend",
     "responsive bootstrap kit"
   ],
@@ -41,12 +39,12 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-clean": "^0.4.0",
     "gulp-install": "^1.1.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-open": "^3.0.1"
   },
-  "homepage": "https://demos.creative-tim.com/material-kit/index.html"
+  "homepage": "https://creative-tim.com/product/material-kit"
 }
