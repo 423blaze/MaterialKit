@@ -1,15 +1,18 @@
 # Change Log
 
-## [2.0.7] 2020-03-09
+## [3.0.0] 2021-10-07
+### Refactor and Improvements
+- Update Bootstrap to v5.1.1
+- Update to Material Design 2
+- New Documentation version
+- New Product structure
+
+## [2.0.7] 2020-03-06
 ### BugFixing
 - Solved the broken links
 - Updated NoUiSlider plugin
 - Solved the existing bugs
 - Change variables from `$brand-color` to `$color`
-
-## [2.0.6] 2019-09-03
-### Improvements, BugFixing
-- Bug fixing (javascript file)
 
 ## [2.0.5] 2018-11-23
 ### Improvements, BugFixing
