@@ -21263,8 +21263,8 @@ body.dark-version {
     opacity: 0;
     transform-origin: 0 0;
     inset: 0px auto auto 0px;
+    margin-top: 2.8125rem !important;
     pointer-events: none;
-    margin-top: 2.8125rem;
     transform: scale(0.95) !important;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;

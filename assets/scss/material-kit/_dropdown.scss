@@ -36,8 +36,8 @@
       opacity: 0;
       transform-origin: $dropdown-transform-origin;
       inset: 0px auto auto 0px;
+      margin-top: $dropdown-mt !important;
       pointer-events: none;
-      margin-top: $dropdown-mt;
       transform: $dropdown-transform;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
