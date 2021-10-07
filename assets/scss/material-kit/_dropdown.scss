@@ -32,9 +32,12 @@
     &.dropdown-hover .dropdown-menu,
     .dropdown-menu {
       display: block;
+      position: absolute;
       opacity: 0;
       transform-origin: $dropdown-transform-origin;
+      inset: 0px auto auto 0px;
       pointer-events: none;
+      margin-top: $dropdown-mt;
       transform: $dropdown-transform;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
