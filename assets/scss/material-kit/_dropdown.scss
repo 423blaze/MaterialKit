@@ -42,6 +42,13 @@
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       will-change: transform,box-shadow;
+
+      .dropdown {
+        &.dropdown-hover .dropdown-menu,
+        .dropdown-menu {
+          margin-top: 0 !important;
+        }
+      }
     }
 
     &.dropdown-hover:hover > .dropdown-menu,
