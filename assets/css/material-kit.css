@@ -21271,6 +21271,13 @@ body.dark-version {
     will-change: transform, box-shadow;
   }
 
+  .dropdown.dropdown-hover .dropdown-menu .dropdown.dropdown-hover .dropdown-menu,
+  .dropdown.dropdown-hover .dropdown-menu .dropdown .dropdown-menu,
+  .dropdown .dropdown-menu .dropdown.dropdown-hover .dropdown-menu,
+  .dropdown .dropdown-menu .dropdown .dropdown-menu {
+    margin-top: 0 !important;
+  }
+
   .dropdown.dropdown-hover:hover>.dropdown-menu,
   .dropdown .dropdown-menu.show {
     opacity: 1;
