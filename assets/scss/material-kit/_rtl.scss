@@ -92,11 +92,8 @@
 
     & > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
       margin-right: -1px;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
       border-top-left-radius: $input-border-radius;
       border-bottom-left-radius: $input-border-radius;
-      border-right: 0;
     }
 
     &:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
