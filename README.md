@@ -11,19 +11,27 @@
 
 This new design has elements that have been the result of research regarding ink and paper and the way objects and materials interact in real life. The result is a beautiful and consistent set of elements that can get you started with your next project. Material Kit is a great tool if you are looking to create a web presence for your Android application and need to be consistent, leaving the impression of visually similar elements. It is also a great resource in its own right, looking gorgeous and helping you build your web pages.
 
+Special thanks go to:
+- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Material Dashboard. You can use it to gain insights into your sources of traffic.
+
+
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Upgrade to Pro Version](#upgrade-to-pro-version)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
+- [Material Kit 2  ](#material-kit-2--)
+  - [Table of Contents](#table-of-contents)
+  - [Versions](#versions)
+  - [Demo](#demo)
+  - [Quick start](#quick-start)
+  - [Documentation](#documentation)
+  - [File Structure](#file-structure)
+  - [Browser Support](#browser-support)
+  - [Resources](#resources)
+  - [Reporting Issues](#reporting-issues)
+  - [Upgrade to PRO Version](#upgrade-to-pro-version)
+  - [Licensing](#licensing)
+  - [Useful Links](#useful-links)
+    - [Social Media](#social-media)
+- [Backend logic provided by genezio](#backend-logic-provided-by-genezio)
 
 
 ## Versions
@@ -106,6 +114,9 @@ At present, we officially aim to support the last two versions of the following 
 - License Agreement: <https://www.creative-tim.com/license>
 - Support: <https://www.creative-tim.com/contact-us>
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/material-kit/issues)
+- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
+
+
 - **Dashboards:**
 
 | HTML 5 | HTML 4 | React | Vue  | Angular |
@@ -158,3 +169,19 @@ Dribbble: <https://dribbble.com/creativetim>
 Instagram: <https://www.instagram.com/CreativeTimOfficial>
 
 TikTok: <https://tiktok.com/@creative.tim>
+
+
+
+# Backend logic provided by genezio
+
+`genezio` is a platform that allows developers to write, deploy, and use serverless APIs with ease. With `genezio`, developers can write their backend logic in classes and design their frontend using their preferred programming language.
+
+Once the backend classes are written, `genezio` deploys them onto a serverless infrastructure. The platform generates an SDK that developers can use to remotely call the methods of their class in a very natural way, making it easy to call backend logic from the client.
+
+The platform comes with a handful of examples to start from, and developers can integrate it into their CI/CD pipeline with a dedicated GitHub action.
+
+For more tutorials and details check the following resources:
+
+- Documentation: https://github.com/creativetimofficial/black-dashboard-genezio
+- Tutorials: https://genez.io/tags/tutorials/
+- Examples: https://github.com/Genez-io/genezio-examples
